@@ -6,6 +6,7 @@ import AddContact from './components/contacts/AddContact';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import About from './components/pagers/About';
 import NotFound from './components/pagers/NotFound';
+import Test from './components/test/Test';
 
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
             <Route exact path="/" component={Contacts}/>
             <Route exact path="/contact/add" component={AddContact}/>
             <Route exact path="/about" component={About}/>
+            <Route exact path="/test" component={Test}/>
             <Route component={NotFound}/>
           </Switch>
         
