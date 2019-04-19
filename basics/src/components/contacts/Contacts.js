@@ -13,6 +13,7 @@ export default class Contacts extends Component {
           const {contacts} = value;
           return (
             <>
+            <h1 className="display-4 my-3"><span className="text-danger">Contact </span>List</h1>
             {
                 contacts.map(contact => 
                 <Contact 
