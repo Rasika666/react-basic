@@ -3,7 +3,7 @@ import Contacts from './components/contacts/Contacts';
 import Header from './components/layout/Header';
 import {Provider} from './context';
 import AddContact from './components/contacts/AddContact';
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import { HashRouter as Router, Route, Switch} from 'react-router-dom';
 import About from './components/pagers/About';
 import NotFound from './components/pagers/NotFound';
 import Test from './components/test/Test';
